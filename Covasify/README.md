@@ -223,7 +223,7 @@ Persistent OAuth and binding data is stored separately under COVAS:NEXT's plugin
 
 ## Credits
 
-**Author / Maintainer**: D. Trintignant  
+**Author**: D. Trintignant  
 **v3 restoration and improvement basis**: [Lag0matic / TRINTIGNANT-COVAS-NEXT-PLUGINS](https://github.com/lag0matic/TRINTIGNANT-COVAS-NEXT-PLUGINS/tree/main/Covasify)  
 **COVAS:NEXT**: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/  
 **Spotify integration**: Spotipy / Spotify Web API
