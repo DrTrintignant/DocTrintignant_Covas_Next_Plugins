@@ -2,7 +2,7 @@
 
 > ⚠️ **Development transparency:** Covasify has been developed with AI assistance. Code changes are directed, reviewed, and tested by the human maintainer before release. Feedback and code improvements are welcome.
 
-> **Project lineage:** Covasify was originally created by **D. Trintignant**, restored and substantially developed by **Lag0matic** from **v3.0.0 through v4.1.1**, and is maintained and developed by **D. Trintignant** again from **v4.1.2** onward.
+> **Project lineage:** Covasify was originally created by **DocTrintignant**, restored and substantially developed by **Lag0matic** from **v3.0.0 through v4.1.1**, and is maintained and developed by **DocTrintignant** again from **v4.1.2** onward. **For the sake of simplicity in management, from version 4.1.2 onwards, the two development branches diverge**
 
 Voice-controlled Spotify integration for [COVAS:NEXT](https://ratherrude.github.io/Elite-Dangerous-AI-Integration/). Play music, control playback, and bind tracks to custom voice phrases — all hands-free.
 
@@ -218,7 +218,7 @@ requests>=2.31.0
 
 ## Credits
 
-**Original author / current maintainer**: D. Trintignant  
+**Original author: DocTrintignant  
 **v3.0.0–v4.1.1 restoration and development**: [Lag0matic](https://github.com/lag0matic/TRINTIGNANT-COVAS-NEXT-PLUGINS/tree/main/Covasify)  
 **COVAS:NEXT**: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/  
 **Spotify API**: Spotipy library
