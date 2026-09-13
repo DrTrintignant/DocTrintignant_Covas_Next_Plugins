@@ -227,4 +227,4 @@ requests>=2.31.0
 
 Covasify v4.1.2 incorporates the development line distributed by Lag0matic through v4.1.1 under the **MIT License**. The applicable MIT notice is preserved in [`LICENSE-MIT`](LICENSE-MIT), with lineage documented in [`THIRD_PARTY_NOTICE.md`](THIRD_PARTY_NOTICE.md).
 
-New original contributions by D. Trintignant are distributed under the repository-level **PolyForm Perimeter License 1.0.1**, to the extent applicable. MIT-licensed upstream portions remain subject to their original MIT terms.
+New original contributions by DocTrintignant are distributed under the repository-level **PolyForm Perimeter License 1.0.1**, to the extent applicable. MIT-licensed upstream portions remain subject to their original MIT terms.
