@@ -2,7 +2,7 @@
 
 This repository contains plugin packages for [COVAS:NEXT](https://ratherrude.github.io/Elite-Dangerous-AI-Integration/).
 
-The repository now distinguishes between the actively maintained plugin, plugins under development and older plugins retained only for historical/reference purposes.
+The repository now distinguishes between the actively maintained plugin, plugins under development and older plugins retained only for historical/reference purposes. **Covasify is both the active maintained plugin and under continued feature development.**
 
 ## Development Transparency
 
@@ -16,10 +16,11 @@ This disclosure is intentional: the repository is provided openly and the use of
 
 ## Active / Maintained Plugins
 
-* **Covasify** — Spotify integration with voice-controlled playback and track binding. This is the currently maintained plugin in this repository.
+* **Covasify** — Spotify integration with voice-controlled playback and track binding. This is the currently maintained plugin in this repository, with further Spotify-native functionality under active development.
 
 ## Under development
 
+* **Covasify — Spotify capability expansion** — Planned work focuses on cost-effective Spotify functionality before broadening to other music sources: queue management, Spotify Connect device discovery/transfer, correct personal-playlist resolution, Top Tracks/Top Artists, Recently Played, basic playlist creation/editing, broader library/API compatibility, and bounded artist/album browsing. Development will preserve the consolidated low-token COVAS action model and avoid large ambient datasets or unnecessary background polling.
 * **Elite Dangerous Lighting** — Reactive RGB lighting engine for Elite Dangerous, driven by live game state and designed for deterministic control of Razer Chroma and compatible hardware (Standalone).
 * **Chromas Next** — COVAS:NEXT lighting integration layer under development, providing voice/operator control over Elite Dangerous Lighting (Plugin).
 
@@ -75,7 +76,7 @@ For installation, setup, voice-command examples, and troubleshooting, see [`Cova
 
 ## Canonical Repository
 
-This repository is the canonical upstream for these plugins. Archived copies are retained here only to preserve project history; the active maintained release is Covasify, with Elite Dangerous Lighting and Chromas Next under development.
+This repository is the canonical upstream for these plugins. Archived copies are retained here only to preserve project history; the active maintained release is Covasify, with further Covasify capability expansion, Elite Dangerous Lighting and Chromas Next under development.
 
 ## License
 
