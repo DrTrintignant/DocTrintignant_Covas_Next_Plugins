@@ -223,7 +223,7 @@ requests>=2.31.0
 
 ## Version History
 
-**v4.1.2** — Maintenance and development resumed by **D. Trintignant**, based on Lag0matic's v4.1.1 development line.
+**v4.1.2** — Maintenance and development resumed by **DocTrintignant**, based on Lag0matic's v4.1.1 development line.
 - Fixed playback startup so requesting a new track no longer briefly resumes the previously paused track first
 - Moved OAuth cache and track bindings to COVAS:NEXT's persistent plugin-data directory so they survive normal plugin updates and reinstalls
 - Removed raw plugin-settings logging that could expose Spotify credentials in COVAS:NEXT logs
