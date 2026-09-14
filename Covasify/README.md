@@ -21,6 +21,37 @@ Covasify connects to Spotify via OAuth and registers a set of voice-activated to
 
 ---
 
+## Under Development
+
+Covasify is actively maintained and is being expanded further **within its Spotify/music-control scope before broader music-source integration is considered**. The current development target is to expose more of Spotify's useful API surface while preserving the compact, token-efficient COVAS:NEXT integration introduced in v4.0.0.
+
+Planned work includes:
+
+- **Queue management** — add tracks to the Spotify queue and inspect a small bounded set of upcoming items.
+- **Spotify Connect device control** — discover available Spotify devices, transfer playback, and support a preferred playback device instead of relying on the first available device.
+- **Personal playlist resolution** — resolve the user's own playlists before falling back to general Spotify playlist search.
+- **Top Tracks / Top Artists** — use Spotify's existing `user-top-read` permission for short-, medium-, and long-term listening summaries and playback.
+- **Recently Played** — expose recent listening history for recall and replay, using Spotify's dedicated recent-history permission.
+- **Playlist management** — create playlists and support practical voice-driven operations such as adding, removing, and renaming items/playlists where the current Spotify API permits it.
+- **Broader library support** — modernize saved-library operations and extend useful library browsing while remaining compatible with Spotify's current Development Mode API.
+- **Bounded artist/album browsing** — expose useful discography and album-track information without returning large catalog dumps to the language model.
+- **Spotify 2026 API compatibility** — replace or gracefully retire legacy endpoints no longer available to current Development Mode applications, and improve handling of current quota/rate-limit behavior.
+
+### Development constraints
+
+The expansion is intentionally designed around efficiency:
+
+- Preserve the consolidated COVAS action model rather than returning to many single-purpose tools.
+- Keep Spotify searches, ranking, matching, paging, and filtering inside Covasify wherever possible.
+- Return only the minimum useful result to the LLM instead of large playlists, libraries, queues, or search-result sets.
+- Keep queue, history, library, and playlist-detail requests on demand rather than adding new continuous background polling.
+- Keep ambient status concise so new functionality does not add unnecessary prompt cost to unrelated COVAS interactions.
+- Preserve existing working playback, track-binding, OAuth, persistent-data, and GenUI behavior unless a compatibility fix specifically requires change.
+
+These items are **development targets, not functionality present in v4.1.2**.
+
+---
+
 ## Setup
 
 ### Step 1 — Create a Spotify App
